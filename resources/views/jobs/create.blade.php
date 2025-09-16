@@ -16,7 +16,7 @@
 
         <x-forms.devider />
 
-        <x-forms.input label="Tags (comma seperated)" name="tags" placeholder="laracast, video, education" />
+        <x-forms.input label="Tags (comma seperated)" name="tags" placeholder="laracast,video,education" />
 
         <x-forms.button>Publish</x-forms.button>
 

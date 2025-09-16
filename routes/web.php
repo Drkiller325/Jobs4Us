@@ -27,7 +27,7 @@ Route::middleware('guest')->group(function () {
 
 
 
-Route::delete('/login', [SessionController::class, 'destroy'])->middleware('auth');
+Route::delete('/logout', [SessionController::class, 'destroy'])->middleware('auth');
 
 
 
